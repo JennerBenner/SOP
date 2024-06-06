@@ -2,5 +2,6 @@ def fibonacci_tal(n):
     a, b = 1, 0
     for i in range(n):
         a, b = b, a + b
-        print(a)
-fibonacci(20)
+        print(b)
+fibonacci_tal(n)
+

@@ -4,6 +4,5 @@ def fibonacci_tal(n):
     elif n == 1:
         return 1
     else:
-        return fibonacci(n - 1) + fibonacci(n - 2)
-
-print(fibonacci(5))
+        return fibonacci_tal(n - 1) + fibonacci_tal(n - 2)
+print(fibonacci_tal(n))
