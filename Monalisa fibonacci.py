@@ -14,12 +14,12 @@ screen.bgpic("Mona_Lisa - Copy.gif")
 
 t = turtle.Turtle()
 t.speed(0)
-t.goto(-60, 100)
+t.goto(-60, 80)
 t.pendown()
 
 fibonacci_sequence = fibonacci(1000)
 for x in range(len(fibonacci_sequence)):
-    t.width((1 +2.2360679775) /2)
+    t.width((1+2.2360679775)/2)
     t.forward(fibonacci_sequence[x])
     t.right(90)
 
